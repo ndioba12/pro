@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActiverSuccess" xml:space="preserve">
+    <value>Le profil a été activé avec succès.</value>
+  </data>
+  <data name="ActiverUserSuccess" xml:space="preserve">
+    <value>L'utilisateur a été activé avec succès.</value>
+  </data>
+  <data name="ActiveUserSuccess" xml:space="preserve">
+    <value>Compte d'utilisateur activé avec succès.</value>
+  </data>
+  <data name="AddError" xml:space="preserve">
+    <value>Echec de l'ajout.</value>
+  </data>
+  <data name="AddOrUpdateFailedGrade" xml:space="preserve">
+    <value>L'ajout ou la modification du grade a échoué</value>
+  </data>
+  <data name="AddOrUpdateSuccessGrade" xml:space="preserve">
+    <value>L'ajout ou la modification du grade a été effectué avec succès</value>
+  </data>
+  <data name="AddSuccess" xml:space="preserve">
+    <value>Ajout effectué avec succès.</value>
+  </data>
+  <data name="AssignRoleSuccess" xml:space="preserve">
+    <value>Assignation de role {0} avec succès.</value>
+  </data>
+  <data name="CreatedUserSuccess" xml:space="preserve">
+    <value>Création de l'utilisateur avec succès</value>
+  </data>
+  <data name="DeleteRoleSuccess" xml:space="preserve">
+    <value>Suppression du role à {0} avec succès.</value>
+  </data>
+  <data name="DesactiverSuccess" xml:space="preserve">
+    <value>Le profil a été désactivé avec succès.</value>
+  </data>
+  <data name="DesactiverUserSuccess" xml:space="preserve">
+    <value>L'utilisateur a été désactivé avec succès.</value>
+  </data>
+  <data name="DesactiveUserSuccess" xml:space="preserve">
+    <value>Ce compte d'utilisateur a été desactivé avec succès.</value>
+  </data>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>Cette adresse electronique {0} est déjà utilisée.</value>
+  </data>
+  <data name="EditedUserSuccess" xml:space="preserve">
+    <value>Modification de l'utilisateur avec succès.</value>
+  </data>
+  <data name="ErrorActiveUser" xml:space="preserve">
+    <value>Erreur d'activation du compte d'utilisateur.</value>
+  </data>
+  <data name="ErrorAddedPhoto" xml:space="preserve">
+    <value>Erreur lors de l'ajout de la photo.</value>
+  </data>
+  <data name="ErrorAssignRole" xml:space="preserve">
+    <value>Erreur Assignation de role.</value>
+  </data>
+  <data name="ErrorAssignRoleUserNotFound" xml:space="preserve">
+    <value>Erreur Assignation de role, utilisateur introuvable.</value>
+  </data>
+  <data name="ErrorCniExist" xml:space="preserve">
+    <value>Ce numero de cni existe déjà dans le système.</value>
+  </data>
+  <data name="ErrorCreateFiche" xml:space="preserve">
+    <value>Erreur de création de la fiche personnel.</value>
+  </data>
+  <data name="ErrorCreationUser" xml:space="preserve">
+    <value>Erreur de création de l'utilisateur.</value>
+  </data>
+  <data name="ErrorDeleteRoleUser" xml:space="preserve">
+    <value>Erreur suppression de role, utilisateur introuvable</value>
+  </data>
+  <data name="ErrorDesactiveUser" xml:space="preserve">
+    <value>Erreur de désactivation du compte d'utilisateur.</value>
+  </data>
+  <data name="ErrorDuplicateUserName" xml:space="preserve">
+    <value>Cet identitiant {0} existe deja dans le système.</value>
+  </data>
+  <data name="ErrorEditedUser" xml:space="preserve">
+    <value>Erreur de modification de l'utilisateur.</value>
+  </data>
+  <data name="ErrorEditedUserNotFound" xml:space="preserve">
+    <value>Erreur de modification de l'utilisateur ! Introuvable.</value>
+  </data>
+  <data name="ErrorEmailExist" xml:space="preserve">
+    <value>Cette adresse electronique existe déjà dans le système.</value>
+  </data>
+  <data name="ErrorextensionFile" xml:space="preserve">
+    <value>Ce type de fichier n'est pas autorisé dans le système.</value>
+  </data>
+  <data name="ErrorFileLarge" xml:space="preserve">
+    <value>Votre fichier est trop grand.</value>
+  </data>
+  <data name="ErrorForgotPassword" xml:space="preserve">
+    <value>Erreur de reinitialisation de mot de passe.</value>
+  </data>
+  <data name="ErrorForgotPasswordNotFound" xml:space="preserve">
+    <value>Erreur de réinitialisation de mot de passe.</value>
+  </data>
+  <data name="ErrorGetOneUser" xml:space="preserve">
+    <value>Erreur de récupération de l'élément avec succès.</value>
+  </data>
+  <data name="ErrorInternal500" xml:space="preserve">
+    <value>Une erreur interne est survenue.</value>
+  </data>
+  <data name="ErrorLoginFailedCount" xml:space="preserve">
+    <value>Blocage : Trop de tentatives de connexion. Réessayez plus tard.</value>
+  </data>
+  <data name="ErrorLoginIdentity" xml:space="preserve">
+    <value>Identifiant ou mot de passe incorrect.</value>
+  </data>
+  <data name="ErrorLoginSuspended" xml:space="preserve">
+    <value>Votre compte est suspendu. Veuillez contacter le service support.</value>
+  </data>
+  <data name="ErrorMatriculeExist" xml:space="preserve">
+    <value>Cette matricule existe déjà dans le système.</value>
+  </data>
+  <data name="ErrorPhotoRequired" xml:space="preserve">
+    <value>Veuillez joindre une photo dans la fiche personnelle.</value>
+  </data>
+  <data name="ErrorResetPassword" xml:space="preserve">
+    <value>Erreur de reinitialisation de votre mot de passe.</value>
+  </data>
+  <data name="ErrorResetPasswordUserNotFound" xml:space="preserve">
+    <value>Erreur de reinitialisation de votre mot de passe. L'utilisateur est introuvable.</value>
+  </data>
+  <data name="ErrorTelephoneExist" xml:space="preserve">
+    <value>Ce numéro de téléphone existe déjà dans le système.</value>
+  </data>
+  <data name="ErrorTokenRevoke" xml:space="preserve">
+    <value>Erreur de révoquation de mot de passe.</value>
+  </data>
+
+	<data name="ErrorUpdateActe" xml:space="preserve">
+    <value>Echec mise à jour acte</value>
+</data>
+  <data name="ErrorUpdatedSignaturePhoto" xml:space="preserve">
+    <value>Erreur de modification de la photo.</value>
+
+  </data>
+  <data name="ErrorUpdateFiche" xml:space="preserve">
+    <value>Erreur de modification de la fiche de personnel.</value>
+  </data>
+  <data name="ErrorValidateFiche" xml:space="preserve">
+    <value>Erreur de validation de la fiche de personnel.</value>
+  </data>
+  <data name="ForgotPasswordSuccess" xml:space="preserve">
+    <value>Un e-mail de réinitialisation a été envoyé à votre adresse. Suivez les intructions fournies pour réinitialiser votre mot de passe.</value>
+  </data>
+  <data name="GetAllActesGestionError" xml:space="preserve">
+    <value>Une erreur est survenue lors de la récupération des actes de gestion.</value>
+  </data>
+  <data name="GetAllActesGestionSuccess" xml:space="preserve">
+    <value>Actes de gestion récupérés avec succès.</value>
+  </data>
+  <data name="GetAllError" xml:space="preserve">
+    <value>Echec de la récupuration de la liste.</value>
+  </data>
+  <data name="GetAllGrade" xml:space="preserve">
+    <value>Liste des grades obtenu avec succès</value>
+  </data>
+  <data name="GetAllProfil" xml:space="preserve">
+    <value>Liste des profils.</value>
+  </data>
+  <data name="GetAllSuccess" xml:space="preserve">
+    <value>Liste récupérée avec succès.</value>
+  </data>
+  <data name="GetDatasSuccess" xml:space="preserve">
+    <value>Récupération des données avec succès.</value>
+  </data>
+  <data name="GetError" xml:space="preserve">
+    <value>Echec de la récupération de l'élément.</value>
+  </data>
+  <data name="GetOneGrade" xml:space="preserve">
+    <value>Grade obtenu avec succès</value>
+  </data>
+  <data name="GetOneUserSuccess" xml:space="preserve">
+    <value>Récupération de l'élément avec succès.</value>
+  </data>
+  <data name="GetSuccess" xml:space="preserve">
+    <value>Récupération effectué avec succès.</value>
+  </data>
+  <data name="GradeNotFound" xml:space="preserve">
+    <value>Le grade n'existe pas dans le système</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Votre token est invalide.</value>
+  </data>
+  <data name="InvalidUserName" xml:space="preserve">
+    <value>Cet identifiant {0} est invalide.</value>
+  </data>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value>Connexion utilisateur avec succès.</value>
+  </data>
+  <data name="OperationError" xml:space="preserve">
+    <value>Echec de l'activation ou de la désactivition.</value>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>Votre mot de passe est incorrect.</value>
+  </data>
+  <data name="PasswordRequireDigits" xml:space="preserve">
+    <value>Votre mot de passe doit comporter au moins un chiffre (0-9).</value>
+  </data>
+  <data name="PasswordRequiresLower" xml:space="preserve">
+    <value>Votre mot de passe doit comporter au moins une lettre majuscule(a-z).</value>
+  </data>
+  <data name="PasswordRequiresNonAlphanumeric" xml:space="preserve">
+    <value>Votre mot de passe doit comporter au moins un caractère non alphanumérique.</value>
+  </data>
+  <data name="PasswordRequiresUpper" xml:space="preserve">
+    <value>Votre mot de passe doit comporter au moins une lettre majuscule(A-Z).</value>
+  </data>
+  <data name="ResetPasswordSuccess" xml:space="preserve">
+    <value>Votre mot de passe a été changé avec succès. Veuillez vous connecter, s'il vous plaît.</value>
+  </data>
+  <data name="SuccessCreateFiche" xml:space="preserve">
+    <value>Fiche de personnel créée avec succès.</value>
+  </data>
+  <data name="SuccessUpdateFiche" xml:space="preserve">
+    <value>Modification de la fiche personnel avec succès.</value>
+  </data>
+  <data name="SuccessValidateFiche" xml:space="preserve">
+    <value>Fiche de personnel validée avec succès.</value>
+  </data>
+  <data name="TokenRefreshSuccess" xml:space="preserve">
+    <value>Votre token a été rafraichi avec succès.</value>
+  </data>
+  <data name="TokenRevokeSuccess" xml:space="preserve">
+    <value>Votre token a été révoqué avec succès.</value>
+  </data>
+  <data name="TokenRevokeUserNotFound" xml:space="preserve">
+    <value>Erreur de revoquation de token. Utilisateur introuvable.</value>
+  </data>
+  <data name="UpdateActeSuccess" xml:space="preserve">
+    <value>Mise à jour acte effectuée avec succes</value>
+  </data>
+  <data name="UpdateError" xml:space="preserve">
+    <value>Erreur de mise à jour.</value>
+  </data>
+  <data name="UpdatePasswordSuccess" xml:space="preserve">
+    <value>Modification mot de passe avec succès.</value>
+  </data>
+  <data name="UpdateSuccess" xml:space="preserve">
+    <value>Mise à jour effectuée.</value>
+  </data>
+  <data name="UserRoleNot" xml:space="preserve">
+    <value>Erreur de révocation du profil ({0}) à un utilisateur ou le profil est inactif.</value>
+  </data>
+</root>

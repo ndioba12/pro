@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BdJUSTICEModelStoreContainer" CdmEntityContainer="BdJUSTICEEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_ActeAdminstration">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_ActeAdminstration">
+        <MappingFragment StoreEntitySet="TD_ActeAdminstration">
+          <ScalarProperty Name="Ata_Id" ColumnName="Ata_Id" />
+          <ScalarProperty Name="Ata_Residence" ColumnName="Ata_Residence" />
+          <ScalarProperty Name="Ata_Ech_Code" ColumnName="Ata_Ech_Code" />
+          <ScalarProperty Name="Ata_Emp_Code" ColumnName="Ata_Emp_Code" />
+          <ScalarProperty Name="Ata_Fon_Code" ColumnName="Ata_Fon_Code" />
+          <ScalarProperty Name="Ata_Jur_Emp_Code" ColumnName="Ata_Jur_Emp_Code" />
+          <ScalarProperty Name="Ata_Jur_Fon_Code" ColumnName="Ata_Jur_Fon_Code" />
+          <ScalarProperty Name="Ata_NumeroDecision" ColumnName="Ata_NumeroDecision" />
+          <ScalarProperty Name="Ata_DateCreation" ColumnName="Ata_DateCreation" />
+          <ScalarProperty Name="Ata_Nad_Code" ColumnName="Ata_Nad_Code" />
+          <ScalarProperty Name="Ata_EstValide" ColumnName="Ata_EstValide" />
+          <ScalarProperty Name="Ata_DateValidation" ColumnName="Ata_DateValidation" />
+          <ScalarProperty Name="Ata_DateSoumission" ColumnName="Ata_DateSoumission" />
+          <ScalarProperty Name="Ata_DateModification" ColumnName="Ata_DateModification" />
+          <ScalarProperty Name="Ata_TyD_Code" ColumnName="Ata_TyD_Code" />
+          <ScalarProperty Name="Ata_Fic_Id" ColumnName="Ata_Fic_Id" />
+          <ScalarProperty Name="Ata_FPJ_Id" ColumnName="Ata_FPJ_Id" />
+          <ScalarProperty Name="Ata_UtiCreation_Id" ColumnName="Ata_UtiCreation_Id" />
+          <ScalarProperty Name="Ata_UtiValidation_Id" ColumnName="Ata_UtiValidation_Id" />
+          <ScalarProperty Name="Ata_Gro_Code" ColumnName="Ata_Gro_Code" />
+          <ScalarProperty Name="Ata_Grm_Code" ColumnName="Ata_Grm_Code" />
+          <ScalarProperty Name="Ata_Grf_Code" ColumnName="Ata_Grf_Code" />
+          <ScalarProperty Name="Ata_Cju_Code" ColumnName="Ata_Cju_Code" />
+          <ScalarProperty Name="Ata_Ind_Valeur" ColumnName="Ata_Ind_Valeur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_ActeGestion">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_ActeGestion">
+        <MappingFragment StoreEntitySet="TD_ActeGestion">
+          <ScalarProperty Name="Atg_Id" ColumnName="Atg_Id" />
+          <ScalarProperty Name="Atg_DateCreation" ColumnName="Atg_DateCreation" />
+          <ScalarProperty Name="Atg_DateEntreeVigueur" ColumnName="Atg_DateEntreeVigueur" />
+          <ScalarProperty Name="Atg_Nad_Code" ColumnName="Atg_Nad_Code" />
+          <ScalarProperty Name="Atg_NumeroDecision" ColumnName="Atg_NumeroDecision" />
+          <ScalarProperty Name="Atg_EstValide" ColumnName="Atg_EstValide" />
+          <ScalarProperty Name="Atg_DateValidation" ColumnName="Atg_DateValidation" />
+          <ScalarProperty Name="Atg_DateSoumission" ColumnName="Atg_DateSoumission" />
+          <ScalarProperty Name="Atg_DateModification" ColumnName="Atg_DateModification" />
+          <ScalarProperty Name="Atg_TyD_Code" ColumnName="Atg_TyD_Code" />
+          <ScalarProperty Name="Atg_Fic_Id" ColumnName="Atg_Fic_Id" />
+          <ScalarProperty Name="Atg_FPJ_Id" ColumnName="Atg_FPJ_Id" />
+          <ScalarProperty Name="Atg_UtiCreation_Id" ColumnName="Atg_UtiCreation_Id" />
+          <ScalarProperty Name="Atg_UtiValidation_Id" ColumnName="Atg_UtiValidation_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_FichePersonnelJudiciaire">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_FichePersonnelJudiciaire">
+        <MappingFragment StoreEntitySet="TD_FichePersonnelJudiciaire">
+          <ScalarProperty Name="FPJ_Id" ColumnName="FPJ_Id" />
+          <ScalarProperty Name="FPJ_Nom" ColumnName="FPJ_Nom" />
+          <ScalarProperty Name="FPJ_Prenom" ColumnName="FPJ_Prenom" />
+          <ScalarProperty Name="FPJ_DateDeNaissance" ColumnName="FPJ_DateDeNaissance" />
+          <ScalarProperty Name="FPJ_LieuDeNaissance" ColumnName="FPJ_LieuDeNaissance" />
+          <ScalarProperty Name="FPJ_Sexe" ColumnName="FPJ_Sexe" />
+          <ScalarProperty Name="FPJ_SituationMatrimoniale" ColumnName="FPJ_SituationMatrimoniale" />
+          <ScalarProperty Name="FPJ_NumeroCNI" ColumnName="FPJ_NumeroCNI" />
+          <ScalarProperty Name="FPJ_Promotion" ColumnName="FPJ_Promotion" />
+          <ScalarProperty Name="FPJ_DateEntreeEnFonction" ColumnName="FPJ_DateEntreeEnFonction" />
+          <ScalarProperty Name="FPJ_RangExamen" ColumnName="FPJ_RangExamen" />
+          <ScalarProperty Name="FPJ_Com_Code" ColumnName="FPJ_Com_Code" />
+          <ScalarProperty Name="FPJ_Qua_Code" ColumnName="FPJ_Qua_Code" />
+          <ScalarProperty Name="FPJ_Telephone" ColumnName="FPJ_Telephone" />
+          <ScalarProperty Name="FPJ_Email" ColumnName="FPJ_Email" />
+          <ScalarProperty Name="FPJ_Matricule" ColumnName="FPJ_Matricule" />
+          <ScalarProperty Name="FPJ_Emp_Code" ColumnName="FPJ_Emp_Code" />
+          <ScalarProperty Name="FPJ_Jur_Fon_Code" ColumnName="FPJ_Jur_Fon_Code" />
+          <ScalarProperty Name="FPJ_SIP_Id" ColumnName="FPJ_SIP_Id" />
+          <ScalarProperty Name="FPJ_Fon_Code" ColumnName="FPJ_Fon_Code" />
+          <ScalarProperty Name="FPJ_Ech_Code" ColumnName="FPJ_Ech_Code" />
+          <ScalarProperty Name="FPJ_ConjointMagistratOuiNon" ColumnName="FPJ_ConjointMagistratOuiNon" />
+          <ScalarProperty Name="FPJ_NomConjoint" ColumnName="FPJ_NomConjoint" />
+          <ScalarProperty Name="FPJ_PrenomConjoint" ColumnName="FPJ_PrenomConjoint" />
+          <ScalarProperty Name="FPJ_MatriculeConjoint" ColumnName="FPJ_MatriculeConjoint" />
+          <ScalarProperty Name="FPJ_DateCreationFiche" ColumnName="FPJ_DateCreationFiche" />
+          <ScalarProperty Name="FPJ_CarteIdentiteMagistrat" ColumnName="FPJ_CarteIdentiteMagistrat" />
+          <ScalarProperty Name="FPJ_Uti_Creation_Id" ColumnName="FPJ_Uti_Creation_Id" />
+          <ScalarProperty Name="FPJ_TyP_Code" ColumnName="FPJ_TyP_Code" />
+          <ScalarProperty Name="FPJ_DateValidation" ColumnName="FPJ_DateValidation" />
+          <ScalarProperty Name="FPJ_DateSoumission" ColumnName="FPJ_DateSoumission" />
+          <ScalarProperty Name="FPJ_Jur_Emp_Code" ColumnName="FPJ_Jur_Emp_Code" />
+          <ScalarProperty Name="FPJ_Uti_Validation_Id" ColumnName="FPJ_Uti_Validation_Id" />
+          <ScalarProperty Name="FPJ_Positon" ColumnName="FPJ_Positon" />
+          <ScalarProperty Name="FPJ_EstValide" ColumnName="FPJ_EstValide" />
+          <ScalarProperty Name="FPJ_Reference" ColumnName="FPJ_Reference" />
+          <ScalarProperty Name="FPJ_Motif" ColumnName="FPJ_Motif" />
+          <ScalarProperty Name="FPJ_Gro_Code" ColumnName="FPJ_Gro_Code" />
+          <ScalarProperty Name="FPJ_Grm_Code" ColumnName="FPJ_Grm_Code" />
+          <ScalarProperty Name="FPJ_Grf_Code" ColumnName="FPJ_Grf_Code" />
+          <ScalarProperty Name="FPJ_Cju_Code" ColumnName="FPJ_Cju_Code" />
+          <ScalarProperty Name="FPJ_Dep_Code" ColumnName="FPJ_Dep_Code" />
+          <ScalarProperty Name="FPJ_Reg_Code" ColumnName="FPJ_Reg_Code" />
+          <ScalarProperty Name="FPJ_Jur__Reg_Code" ColumnName="FPJ_Jur__Reg_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_Fichier">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_Fichier">
+        <MappingFragment StoreEntitySet="TD_Fichier">
+          <ScalarProperty Name="Fic_Id" ColumnName="Fic_Id" />
+          <ScalarProperty Name="Fic_Chemin" ColumnName="Fic_Chemin" />
+          <ScalarProperty Name="Fic_Type" ColumnName="Fic_Type" />
+          <ScalarProperty Name="Fic_DateCreation" ColumnName="Fic_DateCreation" />
+          <ScalarProperty Name="Fic_Photo" ColumnName="Fic_Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_LogErreur">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_LogErreur">
+        <MappingFragment StoreEntitySet="TD_LogErreur">
+          <ScalarProperty Name="Log_Id" ColumnName="Log_Id" />
+          <ScalarProperty Name="Log_Page" ColumnName="Log_Page" />
+          <ScalarProperty Name="Log_Fonction" ColumnName="Log_Fonction" />
+          <ScalarProperty Name="Log_DateErreur" ColumnName="Log_DateErreur" />
+          <ScalarProperty Name="Log_Erreur" ColumnName="Log_Erreur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_MenuItem">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_MenuItem">
+        <MappingFragment StoreEntitySet="TD_MenuItem">
+          <ScalarProperty Name="Men_Id" ColumnName="Men_Id" />
+          <ScalarProperty Name="Men_Libelle" ColumnName="Men_Libelle" />
+          <ScalarProperty Name="Men_Route" ColumnName="Men_Route" />
+          <ScalarProperty Name="Men_Icon" ColumnName="Men_Icon" />
+          <ScalarProperty Name="Men_Priorite" ColumnName="Men_Priorite" />
+          <ScalarProperty Name="Men_CodeProfil" ColumnName="Men_CodeProfil" />
+          <ScalarProperty Name="Men_HaveSubMenu" ColumnName="Men_HaveSubMenu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_SousMenu">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_SousMenu">
+        <MappingFragment StoreEntitySet="TD_SousMenu">
+          <ScalarProperty Name="Sou_MenuId" ColumnName="Sou_MenuId" />
+          <ScalarProperty Name="Sou_SousMenuId" ColumnName="Sou_SousMenuId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_TokenInfo">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_TokenInfo">
+        <MappingFragment StoreEntitySet="TD_TokenInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Usename" ColumnName="Usename" />
+          <ScalarProperty Name="RefreshToken" ColumnName="RefreshToken" />
+          <ScalarProperty Name="RefreshTokenExpiry" ColumnName="RefreshTokenExpiry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_Utilisateur">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_Utilisateur">
+        <MappingFragment StoreEntitySet="TD_Utilisateur">
+          <ScalarProperty Name="Uti_Id" ColumnName="Uti_Id" />
+          <ScalarProperty Name="Uti_Login" ColumnName="Uti_Login" />
+          <ScalarProperty Name="Uti_Nom" ColumnName="Uti_Nom" />
+          <ScalarProperty Name="Uti_Prenom" ColumnName="Uti_Prenom" />
+          <ScalarProperty Name="Uti_Pro_Code" ColumnName="Uti_Pro_Code" />
+          <ScalarProperty Name="Uti_ActifOuiNon" ColumnName="Uti_ActifOuiNon" />
+          <ScalarProperty Name="Uti_DateCreation" ColumnName="Uti_DateCreation" />
+          <ScalarProperty Name="Uti_Poste" ColumnName="Uti_Poste" />
+          <ScalarProperty Name="Uti_Telephone" ColumnName="Uti_Telephone" />
+          <ScalarProperty Name="Uti_Email" ColumnName="Uti_Email" />
+          <ScalarProperty Name="Uti_Adresse" ColumnName="Uti_Adresse" />
+          <ScalarProperty Name="Uti_NewConnection" ColumnName="Uti_NewConnection" />
+          <ScalarProperty Name="Uti_idUser" ColumnName="Uti_idUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_ClasseJuridiction">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_ClasseJuridiction">
+        <MappingFragment StoreEntitySet="TP_ClasseJuridiction">
+          <ScalarProperty Name="Clj_Id" ColumnName="Clj_Id" />
+          <ScalarProperty Name="Clj_Libelle" ColumnName="Clj_Libelle" />
+          <ScalarProperty Name="Clj_Code" ColumnName="Clj_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Commune">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Commune">
+        <MappingFragment StoreEntitySet="TP_Commune">
+          <ScalarProperty Name="Com_Id" ColumnName="Com_Id" />
+          <ScalarProperty Name="Com_Libelle" ColumnName="Com_Libelle" />
+          <ScalarProperty Name="Com_Dep_Code" ColumnName="Com_Dep_Code" />
+          <ScalarProperty Name="Com_Code" ColumnName="Com_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_CorpsJudiciaire">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_CorpsJudiciaire">
+        <MappingFragment StoreEntitySet="TP_CorpsJudiciaire">
+          <ScalarProperty Name="Cju_Id" ColumnName="Cju_Id" />
+          <ScalarProperty Name="Cju_Code" ColumnName="Cju_Code" />
+          <ScalarProperty Name="Cju_Libelle" ColumnName="Cju_Libelle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Departement">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Departement">
+        <MappingFragment StoreEntitySet="TP_Departement">
+          <ScalarProperty Name="Dep_Id" ColumnName="Dep_Id" />
+          <ScalarProperty Name="Dep_Libelle" ColumnName="Dep_Libelle" />
+          <ScalarProperty Name="Dep_Reg_Code" ColumnName="Dep_Reg_Code" />
+          <ScalarProperty Name="Dep_Code" ColumnName="Dep_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Echelon">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Echelon">
+        <MappingFragment StoreEntitySet="TP_Echelon">
+          <ScalarProperty Name="Ech_Id" ColumnName="Ech_Id" />
+          <ScalarProperty Name="Ech_Libelle" ColumnName="Ech_Libelle" />
+          <ScalarProperty Name="Ech_Code" ColumnName="Ech_Code" />
+          <ScalarProperty Name="Ech_Duree" ColumnName="Ech_Duree" />
+          <ScalarProperty Name="Ech_Typ_Code" ColumnName="Ech_Typ_Code" />
+          <ScalarProperty Name="Ech_Gro_Code" ColumnName="Ech_Gro_Code" />
+          <ScalarProperty Name="Ech_Grf_Code" ColumnName="Ech_Grf_Code" />
+          <ScalarProperty Name="Ech_MoP_Code" ColumnName="Ech_MoP_Code" />
+          <ScalarProperty Name="Ech_Ind_Id" ColumnName="Ech_Ind_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_EmploiJudiciaire">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_EmploiJudiciaire">
+        <MappingFragment StoreEntitySet="TP_EmploiJudiciaire">
+          <ScalarProperty Name="Emp_Id" ColumnName="Emp_Id" />
+          <ScalarProperty Name="Emp_Libelle" ColumnName="Emp_Libelle" />
+          <ScalarProperty Name="Emp_Code" ColumnName="Emp_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Fonction">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Fonction">
+        <MappingFragment StoreEntitySet="TP_Fonction">
+          <ScalarProperty Name="Fon_Id" ColumnName="Fon_Id" />
+          <ScalarProperty Name="Fon_Libelle" ColumnName="Fon_Libelle" />
+          <ScalarProperty Name="Fon_Code" ColumnName="Fon_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_GradeFonctionnaireJustice">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_GradeFonctionnaireJustice">
+        <MappingFragment StoreEntitySet="TP_GradeFonctionnaireJustice">
+          <ScalarProperty Name="Grf_Id" ColumnName="Grf_Id" />
+          <ScalarProperty Name="Grf_Libelle" ColumnName="Grf_Libelle" />
+          <ScalarProperty Name="Grf_Code" ColumnName="Grf_Code" />
+          <ScalarProperty Name="Grf_Cju_Code" ColumnName="Grf_Cju_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_GradeMagistrat">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_GradeMagistrat">
+        <MappingFragment StoreEntitySet="TP_GradeMagistrat">
+          <ScalarProperty Name="Grm_Id" ColumnName="Grm_Id" />
+          <ScalarProperty Name="Grm_Libelle" ColumnName="Grm_Libelle" />
+          <ScalarProperty Name="Grm_Code" ColumnName="Grm_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Groupe">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Groupe">
+        <MappingFragment StoreEntitySet="TP_Groupe">
+          <ScalarProperty Name="Gro_Id" ColumnName="Gro_Id" />
+          <ScalarProperty Name="Gro_Libelle" ColumnName="Gro_Libelle" />
+          <ScalarProperty Name="Gro_Code" ColumnName="Gro_Code" />
+          <ScalarProperty Name="Gro_Grm_Code" ColumnName="Gro_Grm_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Indice">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Indice">
+        <MappingFragment StoreEntitySet="TP_Indice">
+          <ScalarProperty Name="Ind_Id" ColumnName="Ind_Id" />
+          <ScalarProperty Name="Ind_Valeur" ColumnName="Ind_Valeur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Juridiction">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Juridiction">
+        <MappingFragment StoreEntitySet="TP_Juridiction">
+          <ScalarProperty Name="Jur_Id" ColumnName="Jur_Id" />
+          <ScalarProperty Name="Jur_Code" ColumnName="Jur_Code" />
+          <ScalarProperty Name="Jur_Siege" ColumnName="Jur_Siege" />
+          <ScalarProperty Name="Jur_TyJ_Code" ColumnName="Jur_TyJ_Code" />
+          <ScalarProperty Name="Jur_Clj_Code" ColumnName="Jur_Clj_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_ModePassage">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_ModePassage">
+        <MappingFragment StoreEntitySet="TP_ModePassage">
+          <ScalarProperty Name="MoP_Id" ColumnName="MoP_Id" />
+          <ScalarProperty Name="MoP_Libelle" ColumnName="MoP_Libelle" />
+          <ScalarProperty Name="MoP_Code" ColumnName="MoP_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_NatureDecision">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_NatureDecision">
+        <MappingFragment StoreEntitySet="TP_NatureDecision">
+          <ScalarProperty Name="NaD_Id" ColumnName="NaD_Id" />
+          <ScalarProperty Name="NaD_Libelle" ColumnName="NaD_Libelle" />
+          <ScalarProperty Name="NaD_Code" ColumnName="NaD_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Profil">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Profil">
+        <MappingFragment StoreEntitySet="TP_Profil">
+          <ScalarProperty Name="Pro_Id" ColumnName="Pro_Id" />
+          <ScalarProperty Name="Pro_Libelle" ColumnName="Pro_Libelle" />
+          <ScalarProperty Name="Pro_ActifOuiNon" ColumnName="Pro_ActifOuiNon" />
+          <ScalarProperty Name="Pro_Code" ColumnName="Pro_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Quartier">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Quartier">
+        <MappingFragment StoreEntitySet="TP_Quartier">
+          <ScalarProperty Name="Qua_Id" ColumnName="Qua_Id" />
+          <ScalarProperty Name="Qua_Libelle" ColumnName="Qua_Libelle" />
+          <ScalarProperty Name="Qua_Code" ColumnName="Qua_Code" />
+          <ScalarProperty Name="Qua_Com_Code" ColumnName="Qua_Com_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_Region">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_Region">
+        <MappingFragment StoreEntitySet="TP_Region">
+          <ScalarProperty Name="Reg_Id" ColumnName="Reg_Id" />
+          <ScalarProperty Name="Reg_Libelle" ColumnName="Reg_Libelle" />
+          <ScalarProperty Name="Reg_Code" ColumnName="Reg_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_TypeActe">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_TypeActe">
+        <MappingFragment StoreEntitySet="TP_TypeActe">
+          <ScalarProperty Name="TyA_Id" ColumnName="TyA_Id" />
+          <ScalarProperty Name="TyA_Libelle" ColumnName="TyA_Libelle" />
+          <ScalarProperty Name="TyA_Code" ColumnName="TyA_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_TypeDocument">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_TypeDocument">
+        <MappingFragment StoreEntitySet="TP_TypeDocument">
+          <ScalarProperty Name="TyD_Id" ColumnName="TyD_Id" />
+          <ScalarProperty Name="TyD_Libelle" ColumnName="TyD_Libelle" />
+          <ScalarProperty Name="TyD_MagistratOuiNon" ColumnName="TyD_MagistratOuiNon" />
+          <ScalarProperty Name="TyD_FonctionnaireJudiciaireOuiNon" ColumnName="TyD_FonctionnaireJudiciaireOuiNon" />
+          <ScalarProperty Name="TyD_TyA_Code" ColumnName="TyD_TyA_Code" />
+          <ScalarProperty Name="TyD_Echeance" ColumnName="TyD_Echeance" />
+          <ScalarProperty Name="TyD_AlerteRouge" ColumnName="TyD_AlerteRouge" />
+          <ScalarProperty Name="TyD_AlerteJaune" ColumnName="TyD_AlerteJaune" />
+          <ScalarProperty Name="TyD_Mouvement" ColumnName="TyD_Mouvement" />
+          <ScalarProperty Name="TyD_Code" ColumnName="TyD_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_TypeJuridiction">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_TypeJuridiction">
+        <MappingFragment StoreEntitySet="TP_TypeJuridiction">
+          <ScalarProperty Name="TyJ_Id" ColumnName="TyJ_Id" />
+          <ScalarProperty Name="TyJ_Libelle" ColumnName="TyJ_Libelle" />
+          <ScalarProperty Name="TyJ_LibelleAnc" ColumnName="TyJ_LibelleAnc" />
+          <ScalarProperty Name="TyJ_Code" ColumnName="TyJ_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_TypePersonnel">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_TypePersonnel">
+        <MappingFragment StoreEntitySet="TP_TypePersonnel">
+          <ScalarProperty Name="TyP_Id" ColumnName="TyP_Id" />
+          <ScalarProperty Name="TyP_Libelle" ColumnName="TyP_Libelle" />
+          <ScalarProperty Name="TyP_Code" ColumnName="TyP_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_CompositionJuridiction">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TR_CompositionJuridiction">
+        <MappingFragment StoreEntitySet="TR_CompositionJuridiction">
+          <ScalarProperty Name="Coj_Id" ColumnName="Coj_Id" />
+          <ScalarProperty Name="Coj_Emp_Code" ColumnName="Coj_Emp_Code" />
+          <ScalarProperty Name="Coj_Jur_Code" ColumnName="Coj_Jur_Code" />
+          <ScalarProperty Name="Coj_NombreRequis" ColumnName="Coj_NombreRequis" />
+          <ScalarProperty Name="Coj_NombreReel" ColumnName="Coj_NombreReel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_RessortJuridictionDepartement">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TR_RessortJuridictionDepartement">
+        <MappingFragment StoreEntitySet="TR_RessortJuridictionDepartement">
+          <ScalarProperty Name="Rjd_Id" ColumnName="Rjd_Id" />
+          <ScalarProperty Name="Rjd_Jur_Code" ColumnName="Rjd_Jur_Code" />
+          <ScalarProperty Name="Rjd_Dep_Code" ColumnName="Rjd_Dep_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TR_RessortJuridictionRegion">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TR_RessortJuridictionRegion">
+        <MappingFragment StoreEntitySet="TR_RessortJuridictionRegion">
+          <ScalarProperty Name="Rjr_Id" ColumnName="Rjr_Id" />
+          <ScalarProperty Name="Rjr_Jur_Code" ColumnName="Rjr_Jur_Code" />
+          <ScalarProperty Name="Rjr_Reg_Code" ColumnName="Rjr_Reg_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TD_Signature_Photo">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TD_Signature_Photo">
+        <MappingFragment StoreEntitySet="TD_Signature_Photo">
+          <ScalarProperty Name="SIP_FileSave" ColumnName="SIP_FileSave" />
+          <ScalarProperty Name="SIP_contentype" ColumnName="SIP_contentype" />
+          <ScalarProperty Name="SIP_Name" ColumnName="SIP_Name" />
+          <ScalarProperty Name="SIP_Id" ColumnName="SIP_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TP_FonctionFonctionnaireJustice">
+      <EntityTypeMapping TypeName="BdJUSTICEModel.TP_FonctionFonctionnaireJustice">
+        <MappingFragment StoreEntitySet="TP_FonctionFonctionnaireJustice">
+          <ScalarProperty Name="FFJ_Libelle" ColumnName="FFJ_Libelle" />
+          <ScalarProperty Name="FFJ_Code" ColumnName="FFJ_Code" />
+          <ScalarProperty Name="FFJ_Id" ColumnName="FFJ_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

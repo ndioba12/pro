@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+	<!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+	<edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+		<!-- Diagram content (shape and connector positions) -->
+		<edmx:Diagrams>
+			<Diagram DiagramId="11b5d537471245a18205b6de1dc92bd2" Name="Diagram1">
+				<EntityTypeShape EntityType="BdJUSTICEModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_ActeAdminstration" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_ActeGestion" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_FichePersonnelJudiciaire" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_Fichier" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_LogErreur" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_MenuItem" Width="1.5" PointX="6.75" PointY="6.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_SousMenu" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_TokenInfo" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_Utilisateur" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_ClasseJuridiction" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Commune" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_CorpsJudiciaire" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Departement" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Echelon" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_EmploiJudiciaire" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Fonction" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_GradeFonctionnaireJustice" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_GradeMagistrat" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Groupe" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Indice" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Juridiction" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_ModePassage" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_NatureDecision" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Profil" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Quartier" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_Region" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_TypeActe" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_TypeDocument" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_TypeJuridiction" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_TypePersonnel" Width="1.5" PointX="14.75" PointY="9.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TR_CompositionJuridiction" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TR_RessortJuridictionDepartement" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TR_RessortJuridictionRegion" Width="1.5" PointX="12.75" PointY="15.75" IsExpanded="true" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TD_Signature_Photo" Width="1.5" PointX="15.375" PointY="15.75" />
+				<EntityTypeShape EntityType="BdJUSTICEModel.TP_FonctionFonctionnaireJustice" Width="1.5" PointX="7.375" PointY="16.75" />
+			</Diagram>
+		</edmx:Diagrams>
+	</edmx:Designer>
+</edmx:Edmx>
